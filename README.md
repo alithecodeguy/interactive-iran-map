@@ -1,6 +1,9 @@
+<pre>npm package name : interactive-iran-map@0.1.4</pre>
+<pre>
 Interactive Iran map that can shows any kind of data - suitable for BI activities.
 Alpha version uploaded.
 The code itself is straightforward but the documents comming soon.
+</pre>
 
 <p dir='rtl' align='right'>نقشه تعاملی ایران - مناسب برای کارهای bi و نمایش انواع داده</p>
 <p dir='rtl' align='right'>نسخه آلفا بارگذاری شد.</p>
