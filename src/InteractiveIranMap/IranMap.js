@@ -1,6 +1,7 @@
 // core libraries
 import React from "react";
 import ReactTooltip from "react-tooltip";
+import PropTypes from "prop-types";
 
 // constants
 import { iransStatesProperties } from "./constants/iransStates";
@@ -153,6 +154,23 @@ const InteractiveIranMap = (props) => {
       ))}
     </div>
   );
+};
+
+InteractiveIranMap.propTypes = {
+  height: PropTypes.number.isRequired,
+  backgroundColor: PropTypes.string,
+  onClick: PropTypes.func.isRequired,
+  selectedArea: PropTypes.string.isRequired,
+  useTestData: PropTypes.bool,
+  defaultAreasColor: PropTypes.string,
+  selectedAreaColor: PropTypes.string,
+};
+
+InteractiveIranMap.defaultProps = {
+  defaultAreasColor: "#fff",
+  selectedAreaColor: "red",
+  backgroundColor: "white",
+  useTestData: false,
 };
 
 export default InteractiveIranMap;

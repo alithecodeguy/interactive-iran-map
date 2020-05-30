@@ -18,6 +18,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
@@ -28,7 +29,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "publish:npm": "export NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src/InteractiveIranMap --out-dir dist --copy-files"
+    "publish:npm": "export NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src/InteractiveIranMap --out-dir dist --copy-files",
+    "lint": "eslint . --ext .js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -46,6 +48,12 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.1"
+    "@babel/cli": "^7.10.1",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "prettier": "2.0.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.19.1"
   }
 }
