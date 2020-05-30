@@ -1,8 +1,8 @@
 {
   "name": "interactive-iran-map",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": false,
-  "license": "(ISC OR GPL-3.0)",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/alithecodeguy/interactive-iran-map.git"
