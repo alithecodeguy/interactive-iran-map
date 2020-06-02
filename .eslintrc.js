@@ -7,8 +7,11 @@ module.exports = {
   extends: [
     "plugin:react/recommended",
     "eslint:recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true
@@ -20,9 +23,10 @@ module.exports = {
     "react"
   ],
   rules: {
-    "react/prop-types": 1,
-    "no-unused-vars": 1,
-    "react/display-name": 1,
-    "no-console": 1
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "arrow-body-style": 2,
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"],
+    "prefer-const": 1
   }
 }
