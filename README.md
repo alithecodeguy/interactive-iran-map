@@ -1,4 +1,3 @@
-<p style="color:red;">deprecated</p>
 # please use v2 that named iran-map
 # https://www.npmjs.com/package/iran-map
 # interactive-iran-map &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/alithecodeguy/interactive-iran-map/blob/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](https://github.com/alithecodeguy/interactive-iran-map/compare)
