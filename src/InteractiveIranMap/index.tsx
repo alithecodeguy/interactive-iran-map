@@ -1,9 +1,10 @@
 // InteractiveIranMap.js
 import React from "react";
 import IranMap from "./IranMap";
+import { IslandInterface } from "./types";
 const InteractiveIranMap = () => {
   const [state, setState] = React.useState({ selectedArea: "tehran" });
-  const selectAreaHandler = (area) => {
+  const selectAreaHandler = (area: IslandInterface) => {
     setState((prevState) => ({ ...prevState, selectedArea: area.name }));
   };
   return (
